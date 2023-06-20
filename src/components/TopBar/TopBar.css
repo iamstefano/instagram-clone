@@ -13,12 +13,25 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  cursor: pointer;
 }
 
 .TopBar__Functions {
   display: flex;
   align-items: center;
   gap: 18px;
+}
+
+.TopBar__Camera,
+.TopBar__MainLogo,
+.TopBar__Functions--tv,
+.TopBar__Functions--msg {
   cursor: pointer;
+  transition: all 0.35s;
+}
+
+.TopBar__Camera:active,
+.TopBar__MainLogo:active,
+.TopBar__Functions--tv:active,
+.TopBar__Functions--msg:active {
+  transform: scale(1.2);
 }
