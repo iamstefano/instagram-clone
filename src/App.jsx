@@ -11,6 +11,7 @@ import TopBar from "./components/TopBar";
 import Stories from "./components/Stories";
 import Posts from "./components/Posts";
 import Camera from "./components/Camera/Camera";
+import TabBar from "./components/TabBar";
 
 function App() {
   const [section, setSection] = useState("home");
@@ -48,6 +49,7 @@ function App() {
     <>
       <TopBar setSection={setSection} />
       {onSectionRender()}
+      <TabBar />
     </>
   );
 }

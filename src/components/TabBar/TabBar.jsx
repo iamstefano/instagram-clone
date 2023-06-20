@@ -4,8 +4,9 @@ import {
   HomeIcon,
   SearchIcon,
   AddContentIcon,
-  HearthIcon,
+  LikesIcon,
   ProfileIcon,
+  TabBar__Bar,
 } from "../../icons";
 
 const TabBar = () => {
@@ -14,8 +15,11 @@ const TabBar = () => {
       <HomeIcon />
       <SearchIcon />
       <AddContentIcon />
-      <HearthIcon />
+      <LikesIcon />
       <ProfileIcon />
+      <div className="TabBar__Bar">
+        <TabBar__Bar />
+      </div>
     </div>
   );
 };
