@@ -1,4 +1,4 @@
-const Avatar_message = () => {
+const Camera_message = () => {
   return (
     <svg width={24} height={22} fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -10,4 +10,4 @@ const Avatar_message = () => {
     </svg>
   );
 };
-export default Avatar_message;
+export default Camera_message;

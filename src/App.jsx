@@ -56,9 +56,9 @@ function App() {
       case "camera":
         return <Camera />;
       case "tv":
-        return <h1>IGTV</h1>;
+        return <h1>IGTV here</h1>;
       case "messages":
-        return <Messages />;
+        return <Messages messages={messages} />;
     }
   };
 

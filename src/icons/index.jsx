@@ -9,6 +9,11 @@ import AddContentIcon from "./AddContentIcon";
 import HomeIcon from "./HomeIcon";
 import LikesIcon from "./LikesIcon";
 import TabBar__Bar from "./TabBar__Bar";
+import Camera_message from "./Camera_message";
+import AddIcon_messages from "./AddIcon_messages";
+import SearchIcon_messages from "./SearchIcon_messages";
+import BackIcon_messages from "./BackIcon_messages";
+import AccountsListIcon_messages from "./AccountsListIcon_messages";
 
 export {
   InstaCamIcon,
@@ -22,4 +27,9 @@ export {
   HomeIcon,
   LikesIcon,
   TabBar__Bar,
+  Camera_message,
+  AddIcon_messages,
+  SearchIcon_messages,
+  BackIcon_messages,
+  AccountsListIcon_messages,
 };

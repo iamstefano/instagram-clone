@@ -1,13 +1,12 @@
 import "./Messages.css";
 
 import Message from "../Message";
-/* import SearchBar from "../SearchBar"; */
+import SearchBar from "../SearchBar";
 
 import {
-  SearchIcon__Messages,
-  BackIcon__Messages,
-  AddIcon__Messages,
-  MoreInfoIcon__Messages,
+  BackIcon_messages,
+  AddIcon_messages,
+  AccountsListIcon_messages,
 } from "../../icons";
 
 const Messages = ({ messages }) => {
@@ -15,20 +14,20 @@ const Messages = ({ messages }) => {
     <div className="Messages">
       <div className="Messages__TopBar">
         <span>
-          <BackIcon__Messages />
+          <BackIcon_messages />
         </span>
 
         <span className="Messages__TopBar__Name">
-          StefanoA <MoreInfoIcon__Messages />
+          StefanoA <AccountsListIcon_messages />
         </span>
 
         <span>
-          <AddIcon__Messages />
+          <AddIcon_messages />
         </span>
       </div>
 
       <div className="Messages__SearchBar">
-        <SearchIcon__Messages />
+        <SearchBar />
         <input type="search" id="searchBar" placeholder="Search" />
       </div>
 

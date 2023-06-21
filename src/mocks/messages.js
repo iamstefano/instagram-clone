@@ -65,7 +65,7 @@ export const messagesData = [
   {
     id: 8,
     userId: 8,
-    userImage: "https://randomuser.me/api/portraits/women/14jpg",
+    userImage: "https://randomuser.me/api/portraits/women/14.jpg",
     userName: "AuroraLuna333",
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",

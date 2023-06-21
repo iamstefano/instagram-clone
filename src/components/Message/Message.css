@@ -2,9 +2,9 @@
   margin-bottom: 8px;
   display: flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 14px;
   height: 72px;
-  width: 375px;
+  width: 100%;
 }
 
 .Message__Image {
@@ -15,7 +15,7 @@
 }
 
 .Message__Info {
-  margin-inline: 8px 18px;
+  margin-inline: 10px 1em;
   width: 100%;
 }
 
@@ -25,9 +25,17 @@
   color: #999999;
 }
 
-.Message__IB__text {
-  width: 200px;
+.Message__text {
+  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.Message__Date {
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em 0 0;
 }

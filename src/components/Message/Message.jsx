@@ -1,5 +1,5 @@
 import "./Message.css";
-import { Avatar_message } from "../../icons";
+import { Camera_message } from "../../icons";
 
 const Message = ({ message }) => {
   return (
@@ -15,13 +15,16 @@ const Message = ({ message }) => {
           <p>{message.userName}</p>
 
           <div className="Message__Info__bottom">
-            <p className="Message__IB__text">{message.message}</p>
-            <p className="Message__IB__date">{message.date}</p>
+            <p className="Message__text">{message.message}</p>
           </div>
         </div>
 
-        <div className="Message__Photo">
-          <Avatar_message />
+        <div className="Message__Date">
+          <p className="Message__date">{message.date}</p>
+        </div>
+
+        <div className="Message__Camera">
+          <Camera_message />
         </div>
       </div>
     </>
