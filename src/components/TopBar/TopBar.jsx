@@ -2,7 +2,7 @@ import "./TopBar.css";
 
 import { InstaCamIcon, LogoIcon, DirectMessIcon, IGTVIcon } from "../../icons";
 
-const TopBar = () => {
+const TopBar = ({ setSection }) => {
   const onHandleClick = (sectionName) => setSection(sectionName);
 
   return (

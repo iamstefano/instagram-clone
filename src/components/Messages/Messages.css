@@ -1,0 +1,37 @@
+.Messages__TopBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.Messages__TopBar__Name {
+  font-size: 16px;
+}
+
+/* SEARCH */
+.Messages__SearchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px;
+  position: relative;
+
+  z-index: 0;
+}
+
+.SearchIcon__Messages {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  z-index: 99;
+}
+
+.Messages__SearchBar input {
+  width: 100%;
+  height: 34px;
+  background: rgba(118, 118, 128, 0.12);
+  border-radius: 10px;
+  border: none;
+  padding-left: 34px;
+}

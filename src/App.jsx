@@ -5,6 +5,7 @@ import "./App.css";
 import { storiesData } from "./mocks/stories";
 import { userData } from "./mocks/user";
 import { postsData } from "./mocks/posts";
+import { messagesData } from "./mocks/messages";
 
 /* Components */
 import TopBar from "./components/TopBar";
@@ -12,6 +13,7 @@ import Stories from "./components/Stories";
 import Posts from "./components/Posts";
 import Camera from "./components/Camera/Camera";
 import TabBar from "./components/TabBar";
+import Messages from "./components/Messages";
 
 function App() {
   const [section, setSection] = useState("home");
@@ -19,12 +21,27 @@ function App() {
   const [stories, setStories] = useState(storiesData);
   const [user, setUser] = useState(userData);
   const [posts, setPosts] = useState(postsData);
+  const [messages, setMessages] = useState(messagesData);
 
+  /* POSTS FETCH*/
   useEffect(() => {
     fetch("https://api.npoint.io/c59d0538fafba6432ffe")
       .then((res) => res.json())
       .then((data) => setPosts(data));
-    // console.log("UseEffect");
+  }, []);
+
+  /* STORIES FETCH*/
+  useEffect(() => {
+    fetch("https://api.npoint.io/81fd1c31dbaa8b3db363")
+      .then((res) => res.json())
+      .then((data) => setStories(data));
+  }, []);
+
+  /* MESSAGES FETCH*/
+  useEffect(() => {
+    fetch("https://api.npoint.io/d8a6a8d1aae08f13d84a")
+      .then((res) => res.json())
+      .then((data) => setMessages(data));
   }, []);
 
   const onSectionRender = () => {
@@ -41,7 +58,7 @@ function App() {
       case "tv":
         return <h1>IGTV</h1>;
       case "messages":
-        return <h1>DIRECT MESS</h1>;
+        return <Messages />;
     }
   };
 
