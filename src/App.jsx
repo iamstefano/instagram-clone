@@ -25,7 +25,7 @@ function App() {
 
   /* POSTS FETCH*/
   useEffect(() => {
-    fetch("https://api.npoint.io/c59d0538fafba6432ffe")
+    fetch("https://api.npoint.io/8ff413d650de87b834eb")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);

@@ -4,10 +4,10 @@
   align-items: center;
   font-size: 14px;
   height: 72px;
-  width: 100%;
+  max-width: 350px;
 }
 
-.Message__Image {
+.Message__Img {
   border-radius: 100%;
   width: 64px;
   height: 64px;
@@ -15,18 +15,16 @@
 }
 
 .Message__Info {
-  margin-inline: 10px 1em;
+  margin-inline: 10px 10px;
   width: 100%;
 }
 
-.Message__Info__bottom {
+.Message__MainText {
   display: flex;
-  justify-content: space-between;
   color: #999999;
 }
 
 .Message__text {
-  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

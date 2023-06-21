@@ -8,13 +8,13 @@ const Message = ({ message }) => {
         <img
           src={message.userImage}
           alt="user profile image"
-          className="Message__Image"
+          className="Message__Img"
         />
 
         <div className="Message__Info">
           <p>{message.userName}</p>
 
-          <div className="Message__Info__bottom">
+          <div className="Message__MainText">
             <p className="Message__text">{message.message}</p>
           </div>
         </div>
