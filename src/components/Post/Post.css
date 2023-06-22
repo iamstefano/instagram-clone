@@ -56,10 +56,19 @@
 }
 
 .PostActions {
+  display: flex;
+  align-items: center;
   position: relative;
   padding: 12px;
+  gap: 10px;
 }
 
-.PostActions__Like > svg {
+.PostActions__Bookmark {
+}
+
+.PostActions__Like,
+.PostActions__Comment,
+.PostActions__Send,
+.PostActions__Bookmark > svg {
   cursor: pointer;
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Post.css";
 
-import { HearthIcon } from "../../icons";
+import { HearthIcon, CommentIcon, SendIcon, BookMarkIcon } from "../../icons";
 
 const Post = ({ post }) => {
   const { isLike } = post;
@@ -36,6 +36,16 @@ const Post = ({ post }) => {
       <div className="PostActions">
         <div onClick={() => toggleLike()} className="PostActions__Like">
           <HearthIcon fill={like && like ? "#FD1D1D" : "#262626"} />
+        </div>
+        <div className="PostActions__Comment">
+          <CommentIcon />
+        </div>
+
+        <div className="PostActions__Send">
+          <SendIcon />
+        </div>
+        <div className="PostActions__Bookmark">
+          <BookMarkIcon />
         </div>
       </div>
     </article>

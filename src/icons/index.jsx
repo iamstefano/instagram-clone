@@ -14,6 +14,9 @@ import AddIcon_messages from "./AddIcon_messages";
 import SearchIcon_messages from "./SearchIcon_messages";
 import BackIcon_messages from "./BackIcon_messages";
 import AccountsListIcon_messages from "./AccountsListIcon_messages";
+import CommentIcon from "./CommentIcon";
+import SendIcon from "./SendIcon";
+import BookMarkIcon from "./BookmarkIcon";
 
 export {
   InstaCamIcon,
@@ -32,4 +35,7 @@ export {
   SearchIcon_messages,
   BackIcon_messages,
   AccountsListIcon_messages,
+  CommentIcon,
+  SendIcon,
+  BookMarkIcon,
 };

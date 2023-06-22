@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import { GET } from "../../utils/http";
+
 import "./Messages.css";
 
 import Message from "../Message";
@@ -8,6 +11,14 @@ import {
   AddIcon_messages,
   AccountsListIcon_messages,
 } from "../../icons";
+
+/* useEffect(() => {
+  GET("https://api.npoint.io/45615d0ddef177eef95b").then((res) =>
+    setMessages(res.messageList)
+  );
+}, []); */
+
+/* const onSetChatName = (value) => setChatName(value); */
 
 const Messages = ({ messages }) => {
   return (
