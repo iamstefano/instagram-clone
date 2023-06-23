@@ -11,7 +11,17 @@ export const postsData = [
     media: [
       {
         id: "media000001djdjdjd",
-        src: "https://picsum.photos/800/500?1968",
+        src: "https://st.depositphotos.com/35741688/51537/v/600/depositphotos_515373844-stock-video-top-view-of-fire-erupted.mp4",
+        type: "video",
+      },
+      {
+        id: "media000001djdjdjd",
+        src: "https://picsum.photos/800/500?1758",
+        type: "image",
+      },
+      {
+        id: "media000001djdjdjd",
+        src: "https://picsum.photos/800/500?1945",
         type: "image",
       },
     ],
@@ -40,8 +50,18 @@ export const postsData = [
     },
     media: [
       {
-        id: "media000001abcd123",
-        src: "https://picsum.photos/800/500?853",
+        id: "media000001djdjdjd",
+        src: "https://picsum.photos/800/500?1968",
+        type: "image",
+      },
+      {
+        id: "media000001djdjdjd",
+        src: "https://picsum.photos/800/500?1218",
+        type: "image",
+      },
+      {
+        id: "media000001djdjdjd",
+        src: "https://picsum.photos/800/500?1965",
         type: "image",
       },
     ],

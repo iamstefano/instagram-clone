@@ -55,12 +55,15 @@
   height: auto;
 }
 
+.PostContent .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .PostActions {
-  display: flex;
-  align-items: center;
   position: relative;
+  display: flex;
+  gap: 12px;
   padding: 12px;
-  gap: 10px;
 }
 
 .PostActions__Bookmark {
