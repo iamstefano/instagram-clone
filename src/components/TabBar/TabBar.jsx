@@ -9,10 +9,13 @@ import {
   TabBar__Bar,
 } from "../../icons";
 
-const TabBar = () => {
+const TabBar = ({ setSection }) => {
+  const onHandleClick = (sectionName) => setSection(sectionName);
   return (
     <div className="TabBar">
-      <HomeIcon />
+      <span onClick={() => onHandleClick("home")}>
+        <HomeIcon />
+      </span>
       <SearchIcon />
       <AddContentIcon />
       <LikesIcon />

@@ -1,17 +1,23 @@
 import "./Message.css";
 import { Camera_message } from "../../icons";
 
-const Message = ({ message }) => {
+const Message = ({ message, setSection, handleMessage }) => {
+  const onHandleClick = (sectionName) => setSection(sectionName);
+  const onHandleClickMessage = () => {
+    const messageChat = message;
+    handleMessage(messageChat);
+  };
+
   return (
     <>
-      <div className="Message">
+      <div className="Message" onClick={() => onHandleClickMessage()}>
         <img
           src={message.userImage}
           alt="user profile image"
           className="Message__Img"
         />
 
-        <div className="Message__Info">
+        <div className="Message__Info" onClick={() => onHandleClick("chat")}>
           <p>{message.userName}</p>
 
           <div className="Message__MainText">

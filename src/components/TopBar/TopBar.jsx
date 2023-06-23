@@ -10,6 +10,7 @@ const TopBar = ({ setSection }) => {
       <div className="TopBar__Camera" onClick={() => onHandleClick("camera")}>
         <InstaCamIcon />
       </div>
+
       <div className="TopBar__MainLogo" onClick={() => onHandleClick("home")}>
         <LogoIcon />
       </div>

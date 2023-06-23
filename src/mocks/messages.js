@@ -7,6 +7,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "3m",
+    chatMess: [
+      {
+        id: 1,
+        userName: "GianniDiGianni",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "GianniDiGianni",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 2,
@@ -16,6 +34,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "12m",
+    chatMess: [
+      {
+        id: 1,
+        userName: "TotoCutugnoFanpage",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "TotoCutugnoFanpage",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 3,
@@ -25,6 +61,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "21m",
+    chatMess: [
+      {
+        id: 1,
+        userName: "Fragolina99",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "Fragolina99",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 4,
@@ -34,6 +88,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "1h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "BradleyMoreno",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "BradleyMoreno",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 5,
@@ -43,6 +115,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "2h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "BeatrixKiddo3",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "BeatrixKiddo3",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 6,
@@ -52,6 +142,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "3h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "AnimaliFilosoficiColorati",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "AnimaliFilosoficiColorati",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 7,
@@ -61,6 +169,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "5h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "FotoBelleLikeSubito",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "FotoBelleLikeSubito",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 8,
@@ -70,6 +196,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "7h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "AuroraLuna333",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "AuroraLuna333",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 9,
@@ -79,6 +223,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "10h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "MichelleGattara",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "MichelleGattara",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 10,
@@ -88,6 +250,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "12h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "Mario77",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "Mario77",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 11,
@@ -97,6 +277,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "16h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "GiannaDiGianna",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "GiannaDiGianna",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
   {
     id: 12,
@@ -106,6 +304,24 @@ export const messagesData = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
     date: "23h",
+    chatMess: [
+      {
+        id: 1,
+        userName: "StevenBradbury",
+        message:
+          "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      },
+      {
+        id: 0,
+        userName: "StefanoA",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+      {
+        id: 1,
+        userName: "StevenBradbury",
+        message: "Lorem ipsum dolor sit amet, consectetur adipisci elit",
+      },
+    ],
   },
 ];
 

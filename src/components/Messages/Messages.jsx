@@ -1,6 +1,3 @@
-import { useState, useEffect } from "react";
-import { GET } from "../../utils/http";
-
 import "./Messages.css";
 
 import Message from "../Message";
@@ -18,13 +15,13 @@ import {
   );
 }, []); */
 
-/* const onSetChatName = (value) => setChatName(value); */
+const Messages = ({ messages, setSection, handleMessage }) => {
+  const onHandleClick = (sectionName) => setSection(sectionName);
 
-const Messages = ({ messages }) => {
   return (
     <div className="Messages">
       <div className="Messages__TopBar">
-        <span>
+        <span onClick={() => onHandleClick("home")}>
           <BackIcon_messages />
         </span>
 
@@ -45,7 +42,11 @@ const Messages = ({ messages }) => {
       <ul className="Messages__Container">
         {messages?.map((message) => (
           <li className="Message__Item" key={message.id}>
-            <Message message={message} />
+            <Message
+              message={message}
+              handleMessage={handleMessage}
+              setSection={setSection}
+            />
           </li>
         ))}
       </ul>

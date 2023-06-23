@@ -14,6 +14,7 @@ import Posts from "./components/Posts";
 import Camera from "./components/Camera/Camera";
 import TabBar from "./components/TabBar";
 import Messages from "./components/Messages";
+import Chat from "./components/Chat";
 
 function App() {
   const [section, setSection] = useState("home");
@@ -22,6 +23,11 @@ function App() {
   const [user, setUser] = useState(userData);
   const [posts, setPosts] = useState(postsData);
   const [messages, setMessages] = useState(messagesData);
+  const [messageChat, setMessageChat] = useState(null);
+
+  const handleMessage = (message) => {
+    setMessageChat(message);
+  };
 
   /* POSTS FETCH*/
   useEffect(() => {
@@ -49,26 +55,53 @@ function App() {
       case "home":
         return (
           <>
+            <TopBar setSection={setSection} />
             <Stories user={user} stories={stories} />
             <Posts posts={posts} />
+            <TabBar setSection={setSection} />
           </>
         );
       case "camera":
-        return <Camera />;
+        return (
+          <>
+            <TopBar setSection={setSection} />
+            <Camera />
+          </>
+        );
       case "tv":
         return <h1>IGTV here</h1>;
       case "messages":
-        return <Messages messages={messages} />;
+        return (
+          <>
+            <Messages
+              messages={messages}
+              setSection={setSection}
+              handleMessage={handleMessage}
+            />
+            <TabBar setSection={setSection} />
+          </>
+        );
+      case "chat":
+        return (
+          <>
+            <TopBar setSection={setSection} />
+            <Chat messageChat={messageChat} />
+            <TabBar setSection={setSection} />
+          </>
+        );
+      default:
+        return (
+          <>
+            <TopBar setSection={setSection} />
+            <Stories user={user} stories={stories} />
+            <Posts posts={posts} />
+            <TabBar setSection={setSection} />
+          </>
+        );
     }
   };
 
-  return (
-    <>
-      <TopBar setSection={setSection} />
-      {onSectionRender()}
-      <TabBar />
-    </>
-  );
+  return <>{onSectionRender()}</>;
 }
 
 export default App;
