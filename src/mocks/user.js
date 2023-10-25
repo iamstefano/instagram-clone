@@ -4,5 +4,5 @@ export const userData = {
   isUser: true,
   username: "StefanoA",
   userImage:
-    "https://scontent.fcag2-1.fna.fbcdn.net/v/t31.18172-8/22712578_1580353785354593_4395177023634584175_o.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=XNiAKBhvlh4AX864XJV&_nc_ht=scontent.fcag2-1.fna&oh=00_AfAgUCt1pRzaQ6LRsnaFxM9KMFbrszoXIT4Jwd7khkCXkw&oe=64B7D8ED",
+    "https://media.licdn.com/dms/image/D4D03AQHqUHi8yS5OOg/profile-displayphoto-shrink_200_200/0/1694169542912?e=1703721600&v=beta&t=nBOZ-pVsmSMbxLBOmOU9HjupW3z5Ab7JvbNRpcxq_JQ",
 };

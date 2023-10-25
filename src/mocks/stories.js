@@ -5,7 +5,7 @@ export const storiesData = [
     isUser: true,
     username: "StefanoA",
     userImage:
-      "https://scontent.fcag2-1.fna.fbcdn.net/v/t31.18172-8/22712578_1580353785354593_4395177023634584175_o.jpg?_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=s4831cTQarYAX_glu6n&_nc_ht=scontent.fcag2-1.fna&oh=00_AfA3ppsnxQs_OqcELUULRyy9p-SsUG0KJHph0XXv9lvY_Q&oe=64BD1EED",
+      "https://media.licdn.com/dms/image/D4D03AQHqUHi8yS5OOg/profile-displayphoto-shrink_200_200/0/1694169542912?e=1703721600&v=beta&t=nBOZ-pVsmSMbxLBOmOU9HjupW3z5Ab7JvbNRpcxq_JQ",
     stories: [
       {
         id: 1,
@@ -153,3 +153,6 @@ export const storiesData = [
 ];
 
 /* https://api.npoint.io/81fd1c31dbaa8b3db363 */
+
+// Edit the npoin here:
+/* https://www.npoint.io/docs/81fd1c31dbaa8b3db363 */
